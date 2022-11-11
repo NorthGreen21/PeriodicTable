@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <title>Periodic Table of the Elements</title>
+        <style>
+            table {
+                width: 90%;
+                margin: 5%;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .bk {
+                width: 5%;
+                padding-top: 5.5%;
+                position: relative;
+            }
+
+            .el {
+                border: 1px solid black;
+            }
+
+            span {
+                position: absolute;
+            }
+
+            .number {
+                top: 10%;
+                left: 10%;
+                font-size: 0.7vw;
+            }
+
+            .weight {
+                top: 10%;
+                right: 10%;
+                font-size: 0.7vw;
+            }
+
+            .symbol {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: center;
+                margin-top: 30%;
+                font-size: 1.5vw;
+            }
+
+            .name {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: center;
+                margin-top: 70%;
+                font-size: 0.8vw;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="el bk">
+                    <span class="number">1</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">H</span>
+                    <span class="name">Hydrogen</span>
+                </td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="el bk">
+                    <span class="number">2</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">He</span>
+                    <span class="name">Helium</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">3</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Li</span>
+                    <span class="name">Lithium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">4</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Be</span>
+                    <span class="name">Beryllium</span>
+                </td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="el bk">
+                    <span class="number">5</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">B</span>
+                    <span class="name">Boron</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">6</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">C</span>
+                    <span class="name">Carbon</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">7</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">N</span>
+                    <span class="name">Nitrogen</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">8</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">O</span>
+                    <span class="name">Oxygen</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">9</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">F</span>
+                    <span class="name">Fluorine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">10</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ne</span>
+                    <span class="name">Neon</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">11</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Na</span>
+                    <span class="name">Sodium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">12</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Mg</span>
+                    <span class="name">Magnesium</span>
+                </td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="el bk">
+                    <span class="number">13</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Al</span>
+                    <span class="name">Aluminium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">14</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Si</span>
+                    <span class="name">Silicon</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">15</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">P</span>
+                    <span class="name">Phosphorus</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">16</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">S</span>
+                    <span class="name">Sulfur</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">17</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cl</span>
+                    <span class="name">Chlorine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">18</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ar</span>
+                    <span class="name">Argon</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">19</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">K</span>
+                    <span class="name">Potassium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">20</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ca</span>
+                    <span class="name">Calcium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">21</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Sc</span>
+                    <span class="name">Scandium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">22</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ti</span>
+                    <span class="name">Titanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">23</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">V</span>
+                    <span class="name">Vanadium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">24</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cr</span>
+                    <span class="name">Chromium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">25</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Mn</span>
+                    <span class="name">Manganese</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">26</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Fe</span>
+                    <span class="name">Iron</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">27</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Co</span>
+                    <span class="name">Cobalt</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">28</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ni</span>
+                    <span class="name">Nickel</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">29</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cu</span>
+                    <span class="name">Copper</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">30</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Zn</span>
+                    <span class="name">Zinc</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">31</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ga</span>
+                    <span class="name">Gallium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">32</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ge</span>
+                    <span class="name">Germanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">33</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">As</span>
+                    <span class="name">Arsenic</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">34</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Se</span>
+                    <span class="name">Selenium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">35</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Br</span>
+                    <span class="name">Bromine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">36</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Kr</span>
+                    <span class="name">Krypton</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">19</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">K</span>
+                    <span class="name">Potassium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">20</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ca</span>
+                    <span class="name">Calcium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">21</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Sc</span>
+                    <span class="name">Scandium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">22</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ti</span>
+                    <span class="name">Titanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">23</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">V</span>
+                    <span class="name">Vanadium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">24</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cr</span>
+                    <span class="name">Chromium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">25</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Mn</span>
+                    <span class="name">Manganese</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">26</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Fe</span>
+                    <span class="name">Iron</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">27</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Co</span>
+                    <span class="name">Cobalt</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">28</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ni</span>
+                    <span class="name">Nickel</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">29</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cu</span>
+                    <span class="name">Copper</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">30</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Zn</span>
+                    <span class="name">Zinc</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">31</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ga</span>
+                    <span class="name">Gallium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">32</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ge</span>
+                    <span class="name">Germanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">33</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">As</span>
+                    <span class="name">Arsenic</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">34</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Se</span>
+                    <span class="name">Selenium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">35</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Br</span>
+                    <span class="name">Bromine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">36</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Kr</span>
+                    <span class="name">Krypton</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">19</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">K</span>
+                    <span class="name">Potassium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">20</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ca</span>
+                    <span class="name">Calcium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">21</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Sc</span>
+                    <span class="name">Scandium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">22</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ti</span>
+                    <span class="name">Titanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">23</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">V</span>
+                    <span class="name">Vanadium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">24</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cr</span>
+                    <span class="name">Chromium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">25</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Mn</span>
+                    <span class="name">Manganese</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">26</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Fe</span>
+                    <span class="name">Iron</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">27</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Co</span>
+                    <span class="name">Cobalt</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">28</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ni</span>
+                    <span class="name">Nickel</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">29</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cu</span>
+                    <span class="name">Copper</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">30</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Zn</span>
+                    <span class="name">Zinc</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">31</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ga</span>
+                    <span class="name">Gallium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">32</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ge</span>
+                    <span class="name">Germanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">33</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">As</span>
+                    <span class="name">Arsenic</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">34</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Se</span>
+                    <span class="name">Selenium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">35</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Br</span>
+                    <span class="name">Bromine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">36</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Kr</span>
+                    <span class="name">Krypton</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="el bk">
+                    <span class="number">19</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">K</span>
+                    <span class="name">Potassium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">20</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ca</span>
+                    <span class="name">Calcium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">21</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Sc</span>
+                    <span class="name">Scandium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">22</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ti</span>
+                    <span class="name">Titanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">23</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">V</span>
+                    <span class="name">Vanadium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">24</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cr</span>
+                    <span class="name">Chromium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">25</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Mn</span>
+                    <span class="name">Manganese</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">26</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Fe</span>
+                    <span class="name">Iron</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">27</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Co</span>
+                    <span class="name">Cobalt</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">28</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ni</span>
+                    <span class="name">Nickel</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">29</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Cu</span>
+                    <span class="name">Copper</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">30</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Zn</span>
+                    <span class="name">Zinc</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">31</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ga</span>
+                    <span class="name">Gallium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">32</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Ge</span>
+                    <span class="name">Germanium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">33</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">As</span>
+                    <span class="name">Arsenic</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">34</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Se</span>
+                    <span class="name">Selenium</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">35</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Br</span>
+                    <span class="name">Bromine</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">36</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Kr</span>
+                    <span class="name">Krypton</span>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
