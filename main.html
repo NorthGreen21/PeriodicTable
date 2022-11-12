@@ -6,10 +6,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
         <title>Periodic Table of the Elements</title>
         <style>
+            body {
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 50px;
+                border-bottom: 1px solid black;
+                background-color: white;
+                width: 100%;
+                z-index: 2;
+            }
+
             table {
                 width: 90%;
                 margin: 5%;
-                font-family: 'Rubik', sans-serif;
+                z-index: 1;
             }
 
             .bk {
@@ -59,12 +74,40 @@
             }
 
             .ex1 {
-                margin-top: 75%;
+                margin-top: 75.7%;
                 font-size: 0.7vw;
+            }
+
+            .ex2 {
+                margin-top: 76.7%;
+                font-size: 0.6vw;
+            }
+
+            .es {
+                padding-top: 2%;
+            }
+
+            .title {
+                position: absolute;
+                top: 0;
+                font-size: 20px;
+                margin-left: 0.7%;
+            }
+
+            .author {
+                position: absolute;
+                top: 0;
+                font-size: 16px;
+                margin-left: 15.5%;
+                font-style: italic;
             }
         </style>
     </head>
     <body>
+        <div class="header">
+            <h1 class="title">Periodic Table of the Elements</h1>
+            <p class="author">Made by <a href="https://github.com/NorthGreen21">NorthGreen21</a></span>
+        </div>
         <table>
             <tr>
                 <td class="el bk">
@@ -545,113 +588,320 @@
             </tr>
             <tr>
                 <td class="el bk">
-                    <span class="number">19</span>
+                    <span class="number">87</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">K</span>
-                    <span class="name">Potassium</span>
+                    <span class="symbol">Fr</span>
+                    <span class="name">Francium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">20</span>
+                    <span class="number">88</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Ca</span>
-                    <span class="name">Calcium</span>
+                    <span class="symbol">Ra</span>
+                    <span class="name">Radium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">21</span>
-                    <span class="weight">1.0078</span>
-                    <span class="symbol">Sc</span>
-                    <span class="name">Scandium</span>
+                    <span class="number">89-103</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">22</span>
+                    <span class="number">104</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Ti</span>
-                    <span class="name">Titanium</span>
+                    <span class="symbol">Rf</span>
+                    <span class="name ex2">Rutherfordium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">23</span>
+                    <span class="number">105</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">V</span>
-                    <span class="name">Vanadium</span>
+                    <span class="symbol">Db</span>
+                    <span class="name">Dubnium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">24</span>
+                    <span class="number">106</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Cr</span>
-                    <span class="name">Chromium</span>
+                    <span class="symbol">Sg</span>
+                    <span class="name ex1">Seaborgium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">25</span>
+                    <span class="number">107</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Mn</span>
-                    <span class="name">Manganese</span>
+                    <span class="symbol">Bh</span>
+                    <span class="name">Bohrium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">26</span>
+                    <span class="number">108</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Fe</span>
-                    <span class="name">Iron</span>
+                    <span class="symbol">Hs</span>
+                    <span class="name">Hassium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">27</span>
+                    <span class="number">109</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Co</span>
-                    <span class="name">Cobalt</span>
+                    <span class="symbol">Mt</span>
+                    <span class="name">Meitnerium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">28</span>
+                    <span class="number">110</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Ni</span>
-                    <span class="name">Nickel</span>
+                    <span class="symbol">Ds</span>
+                    <span class="name ex2">Darmstadtium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">29</span>
+                    <span class="number">111</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Cu</span>
-                    <span class="name">Copper</span>
+                    <span class="symbol">Rg</span>
+                    <span class="name ex1">Roentgenium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">30</span>
+                    <span class="number">112</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Zn</span>
-                    <span class="name">Zinc</span>
+                    <span class="symbol">Cn</span>
+                    <span class="name ex1">Copernicium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">31</span>
+                    <span class="number">113</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Ga</span>
-                    <span class="name">Gallium</span>
+                    <span class="symbol">Nh</span>
+                    <span class="name">Nihonium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">32</span>
+                    <span class="number">114</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Ge</span>
-                    <span class="name">Germanium</span>
+                    <span class="symbol">Fl</span>
+                    <span class="name">Flerovium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">33</span>
+                    <span class="number">115</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">As</span>
-                    <span class="name">Arsenic</span>
+                    <span class="symbol">Mc</span>
+                    <span class="name">Moscovium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">34</span>
+                    <span class="number">116</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Se</span>
-                    <span class="name">Selenium</span>
+                    <span class="symbol">Lv</span>
+                    <span class="name ex1">Livermorium</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">35</span>
+                    <span class="number">117</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Br</span>
-                    <span class="name">Bromine</span>
+                    <span class="symbol">Ts</span>
+                    <span class="name">Tennessine</span>
                 </td>
                 <td class="el bk">
-                    <span class="number">36</span>
+                    <span class="number">118</span>
                     <span class="weight">1.0078</span>
-                    <span class="symbol">Kr</span>
-                    <span class="name">Krypton</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
                 </td>
+            </tr>
+            <tr>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+                <td class="es bk"></td>
+            </tr>
+            <tr>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="em bk"></td>
+            </tr>
+            <tr>
+                <td class="em bk"></td>
+                <td class="em bk"></td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="el bk">
+                    <span class="number">118</span>
+                    <span class="weight">1.0078</span>
+                    <span class="symbol">Og</span>
+                    <span class="name">Oganesson</span>
+                </td>
+                <td class="em bk"></td>
             </tr>
         </table>
     </body>
